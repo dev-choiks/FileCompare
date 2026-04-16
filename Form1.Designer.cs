@@ -38,7 +38,7 @@
             label1 = new Label();
             btnCopyFromLeft = new Button();
             pnlRightList = new Panel();
-            lvwrightDir = new ListView();
+            lvwRightDir = new ListView();
             pnlRightMenu = new Panel();
             txtRightDir = new TextBox();
             btnRightDir = new Button();
@@ -145,6 +145,7 @@
             label1.Size = new Size(220, 43);
             label1.TabIndex = 3;
             label1.Text = "FileCompare";
+            label1.Click += label1_Click;
             // 
             // btnCopyFromLeft
             // 
@@ -159,21 +160,21 @@
             // 
             // pnlRightList
             // 
-            pnlRightList.Controls.Add(lvwrightDir);
+            pnlRightList.Controls.Add(lvwRightDir);
             pnlRightList.Dock = DockStyle.Fill;
             pnlRightList.Location = new Point(0, 137);
             pnlRightList.Name = "pnlRightList";
             pnlRightList.Size = new Size(514, 390);
             pnlRightList.TabIndex = 3;
             // 
-            // lvwrightDir
+            // lvwRightDir
             // 
-            lvwrightDir.Dock = DockStyle.Fill;
-            lvwrightDir.Location = new Point(0, 0);
-            lvwrightDir.Name = "lvwrightDir";
-            lvwrightDir.Size = new Size(514, 390);
-            lvwrightDir.TabIndex = 1;
-            lvwrightDir.UseCompatibleStateImageBehavior = false;
+            lvwRightDir.Dock = DockStyle.Fill;
+            lvwRightDir.Location = new Point(0, 0);
+            lvwRightDir.Name = "lvwRightDir";
+            lvwRightDir.Size = new Size(514, 390);
+            lvwRightDir.TabIndex = 1;
+            lvwRightDir.UseCompatibleStateImageBehavior = false;
             // 
             // pnlRightMenu
             // 
@@ -266,7 +267,7 @@
         private Button btnRightDir;
         private ListView lvwLeftDir;
         private Button btnCopyFromLeft;
-        private ListView lvwrightDir;
+        private ListView lvwRightDir;
         private Button btnCopyFromRight;
     }
 }
