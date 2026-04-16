@@ -115,6 +115,7 @@
             btnLeftDir.TabIndex = 1;
             btnLeftDir.Text = "폴더선택";
             btnLeftDir.UseVisualStyleBackColor = true;
+            btnLeftDir.Click += btnLeftDir_Click;
             // 
             // txtLeftDir
             // 
@@ -145,7 +146,6 @@
             label1.Size = new Size(220, 43);
             label1.TabIndex = 3;
             label1.Text = "FileCompare";
-            label1.Click += label1_Click;
             // 
             // btnCopyFromLeft
             // 
@@ -205,6 +205,7 @@
             btnRightDir.TabIndex = 2;
             btnRightDir.Text = "폴더선택";
             btnRightDir.UseVisualStyleBackColor = true;
+            btnRightDir.Click += btnRightDir_Click;
             // 
             // pnlRightMain
             // 
