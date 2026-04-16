@@ -157,6 +157,7 @@
             btnCopyFromLeft.TabIndex = 2;
             btnCopyFromLeft.Text = ">>>";
             btnCopyFromLeft.UseVisualStyleBackColor = true;
+            btnCopyFromLeft.Click += btnCopyFromLeft_Click;
             // 
             // pnlRightList
             // 
@@ -226,6 +227,7 @@
             btnCopyFromRight.TabIndex = 3;
             btnCopyFromRight.Text = "<<<";
             btnCopyFromRight.UseVisualStyleBackColor = true;
+            btnCopyFromRight.Click += btnCopyFromRight_Click;
             // 
             // Form1
             // 
